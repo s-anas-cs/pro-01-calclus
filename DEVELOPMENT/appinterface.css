@@ -1,0 +1,535 @@
+*{
+    text-decoration: none;
+}
+
+/* From Uiverse.io by zanina-yassine */ 
+/* Remove this container when use*/
+.component-title {
+  width: 100%;
+  position: absolute;
+  z-index: 999;
+  top: 30px;
+  left: 0;
+  padding: 0;
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #888;
+  text-align: center;
+}
+
+.tab-container {
+  position: relative;
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+
+  padding: 2px;
+
+  background-color: #dadadb;
+  border-radius: 9px;
+}
+
+
+
+.tab {
+  width: 130px;
+  height: 28px;
+  position: absolute;
+  z-index: 99;
+  outline: none;
+  opacity: 0;
+}
+
+.tab_label {
+  width: 120px;
+  height: 30px;
+
+  position: relative;
+  z-index: 999;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 0;
+
+  font-size: 16px;
+  opacity: 0.6;
+ margin-left: -10px;
+  font-family: Montserrat;
+   color: rgb(0, 0, 0);
+}
+
+
+ 
+
+
+/* From Uiverse.io by krittika_3142 */ 
+.finmate-card {
+  background: linear-gradient(145deg, #58585b, #2b2b31);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 25px;
+  padding: 25px;
+  margin-top: 20px;
+  margin-left: 12px;
+  width: 270px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  color: white;
+ font-family: Montserrat;
+}
+
+.finmate-card-balance {
+  margin-bottom: 20px;
+}
+
+.finmate-card-label {
+  font-size: 0.9rem;
+  color: #b0b0b0;
+  margin-bottom: 5px;
+}
+
+.finmate-card-amount {
+  font-size: 1.8rem;
+  color: #f5f5f5;
+  margin: 0;
+  font-weight: 600;
+}
+
+.finmate-card-summary {
+  display: flex;
+  justify-content: space-between;
+}
+
+.finmate-card-green {
+  color: #4ade80;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.finmate-card-red {
+  color: #e93f3f;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+
+
+
+/* From Uiverse.io by Yaya12085 */ 
+.card {
+  padding-top: 16px;
+  padding-bottom: 35px;
+  padding-left: 16px;
+  padding-right: 150px;
+  background: linear-gradient(145deg, #58585b, #2b2b31);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  width: 150px;
+  border-radius: 20px;
+   font-family: Montserrat;
+  margin-left: 13px;
+  margin-top: 15px;
+
+}
+.title {
+  display: flex;
+  align-items: center;
+
+}
+
+.title span {
+  position: relative;
+  padding: 0.5rem;
+  background-color: #4af489;
+  width: 15px;
+  height: 10px;
+  border-radius: 9999px;
+   margin-top:-15px;
+ 
+}
+
+.title span svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #030303;
+  height: 1rem;
+   margin-top: -2px;
+}
+
+.title-text {
+  margin-left: 0.5rem;
+  color: #b0b0b0;
+  font-size: 18px;
+   margin-top: -1px;
+
+}
+
+.percent {
+  margin-left: 0.5rem;
+  color: #4ade80;
+  font-weight: 600;
+  display: flex;
+  font-family: Montserrat;
+  margin-top: -2px;
+}
+
+.data {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+ 
+}
+
+.data p {
+  margin-top: -9px;
+  margin-bottom: 10px;
+  color: #ffffff;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  font-weight:bold ;
+  text-align: left;
+
+  
+}
+
+.data .range {
+  position: relative;
+  background-color: #b0b0b0;
+  width: 185%;
+  height: 0.5rem;
+  border-radius: 0.25rem;
+ 
+ 
+}
+
+.data .range .fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #30d56d;
+  width: 76%;
+  height: 100%;
+  border-radius: 0.25rem;
+  
+}
+
+/* From Uiverse.io by Cobp */ 
+.container-card-charts {
+  position: relative;
+  width: 318px;
+  height: 320px;
+  background: linear-gradient(
+    to top,
+    rgb(0, 0, 0),
+    rgba(0, 0, 0, 0.1)
+  );
+  border-radius: 35px;
+  padding: 1.6px;
+   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  font-family: Montserrat;
+  margin-left: 8px;
+  margin-top: 30px;
+
+}
+.container-card-charts::before {
+  position: absolute;
+  content: "";
+  bottom: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 80px;
+  background-color: #ffffff;
+  z-index: -10;
+  filter: blur(70px);
+
+}
+.card-charts {
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(ellipse at center, #5a5a5a, #000000);
+  border-radius: 32px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.charts-lines {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.charts-lines i {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.lines {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.lines span {
+  width: 1.5px;
+  height: 100%;
+  margin: 0 18px;
+  background: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.025) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+.tags-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.tags-card .radio {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  border-radius: 12px;
+  color: #ffffff;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  font-size: 8px;
+  font-weight: 600;
+ font-family: Montserrat;
+}
+.tags-card .radio:hover {
+  color: #ffffff;
+}
+.tags-card .radio input {
+  display: none;
+}
+
+.tags-card .radio .name {
+  width: 100%;
+  padding: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  z-index: 1;
+}
+
+.tags-card .radio input:checked + .name {
+  color: #ffffff;
+  background: linear-gradient(15deg, #898989, #181818, #000000);
+  transform: scale(1.1);
+}
+
+.tags-card .radio input:checked + .name::before {
+  position: absolute;
+  background-color: #212121;
+  content: "";
+  inset: 1px;
+  z-index: -1;
+  border-radius: 12px;
+}
+
+.main-texts {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+  font-weight: 500;
+  font-family: Montserrat;
+}
+.main-texts .title {
+  background-image: linear-gradient(to top left, #92400e, #fdfdfd, #a6a6a6);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.main-texts .change {
+  background-image: linear-gradient(to right, #ed1010, #ffffff, #ffffff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.charts-lines path {
+  opacity: 0;
+}
+.card-charts svg {
+  transition: transform 0.5s ease;
+}
+.card-charts:hover svg {
+  transform: scale(1.5);
+}
+.icon-week path {
+  animation: draw 8s ease infinite;
+}
+.icon-month path {
+  animation: draw 8s 3s ease infinite;
+}
+
+@keyframes draw {
+  0% {
+    stroke-dashoffset: 1500;
+    opacity: 0.8;
+  }
+  50% {
+    stroke-dashoffset: 0;
+  }
+  100% {
+    stroke-dashoffset: -1500;
+    opacity: 0.8;
+  }
+}
+
+/* From Uiverse.io by JohnnyCSilva */ 
+.noticard {
+  width: 92%;
+  height: 80px;
+ background: linear-gradient(145deg, #58585b, #2b2b31);
+   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+   border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  backdrop-filter: blur(10px);
+  transition: 0.5s ease-in-out;
+  font-family: Montserrat;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-bottom: -15px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.img {
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+  border-radius: 10px;
+  background: linear-gradient(#d7cfcf, #c9f321);
+}
+
+.card:hover > .img {
+  transition: 0.5s ease-in-out;
+  background: linear-gradient(#9198e5, #712020);
+}
+
+.textBox {
+  width: calc(100% - 90px);
+  margin-left: 10px;
+  color: white;
+  font-family: Montserrat;
+}
+
+.textContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.span {
+  font-size: 10px;
+}
+
+.h1 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.p {
+  font-size: 15px;
+  font-weight: lighter;
+  margin-top: -15px;
+  font-family: Montserrat;
+  color: white;
+}
+
+.img1 {
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+  border-radius: 10px;
+  background: linear-gradient(#ea7a7a, #2b2f5a);
+}
+.img2 {
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+  border-radius: 10px;
+  background: linear-gradient(#f6f4f4, #0d20f1);
+}
+
+
+/* From Uiverse.io by akshat-patel28 */ 
+.cardclock {
+  width: 320px;
+  height: 175px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  flex-direction: column;
+ background: linear-gradient(145deg, #58585b, #2b2b31);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+  font-family: Montserrat;
+  margin-left: 8px;
+  margin-top: 30px;
+}
+
+.card:hover {
+  box-shadow: rgb(0,0,0) 5px 10px 50px ,rgb(0,0,0) -5px 0px 250px;
+}
+
+.time-text {
+  font-size: 50px;
+  margin-top: 0px;
+  margin-left: 15px;
+  font-weight: 600;
+   font-family: Montserrat;
+   color: white;
+}
+
+.time-sub-text {
+  font-size: 15px;
+  margin-left: 5px;
+  font-family: Montserrat;
+    color: white;
+}
+
+.day-text {
+  font-size: 18px;
+  margin-top: 0px;
+  margin-left: 15px;
+  font-weight: 500;
+  font-family: Montserrat;
+    color: white;
+}
+
+.moon {
+  font-size: 20px;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  transition: all 0.3s ease-in-out;
+}
+
+.card:hover > .moon {
+  font-size: 23px;
+}
+
+.icon{
+  font-size: 20px;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  transition: all 0.3s ease-in-out;
+  color: yellow;
+}
